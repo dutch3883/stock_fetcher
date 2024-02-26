@@ -135,7 +135,7 @@
         "change": -0.2400000000000002,
         "percentChange": -7.643312101910834,
         "totalVolume": 1326607697.0,
-        "totalValue": 4020866168.02,
+        "totalValue": 4020866168.0199995,
         "pe": 30.16,
         "pbv": 4.4,
         "bookValuePerShare": 0.66,
@@ -147,6 +147,6 @@
         "turnoverRatio": 12.060069972727273,
         "beta": 0.76,
         "dividendPayoutRatio": 0.99,
-        "averageValue": 103099132.51333334
+        "averageValue": 103099132.51333332
     }
 ]

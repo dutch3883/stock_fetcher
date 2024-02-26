@@ -105,7 +105,7 @@
         "change": 1.2199999999999998,
         "percentChange": 29.90196078431372,
         "totalVolume": 19001345929.0,
-        "totalValue": 85915478814.78998,
+        "totalValue": 85915478814.79,
         "pe": 16.32,
         "pbv": 2.45,
         "bookValuePerShare": 2.16,
@@ -117,7 +117,7 @@
         "turnoverRatio": 127.12621994606327,
         "beta": 0.87,
         "dividendPayoutRatio": 0.51,
-        "averageValue": 353561641.2131275
+        "averageValue": 353561641.21312755
     },
     {
         "date": "2024-02-23T00:00:00+07:00",
@@ -135,7 +135,7 @@
         "change": -0.5999999999999996,
         "percentChange": -11.320754716981126,
         "totalVolume": 3333722488.0,
-        "totalValue": 15997562216.399998,
+        "totalValue": 15997562216.400002,
         "pe": 14.47,
         "pbv": 2.17,
         "bookValuePerShare": 2.16,
@@ -147,6 +147,6 @@
         "turnoverRatio": 22.303869411787986,
         "beta": 0.88,
         "dividendPayoutRatio": 0.51,
-        "averageValue": 410193902.9846153
+        "averageValue": 410193902.98461545
     }
 ]
