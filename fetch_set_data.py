@@ -60,10 +60,10 @@ def fetch_stock_indicators(symbol, from_file = False):
             latest_stats = data_stats[-1]
             
             # Save trading stats to JSON file
-            with open(f"{symbol}_trading_stats.json", "w") as file:
+            with open(f"data/{symbol}_trading_stats.json", "w") as file:
                 json.dump(data_stats, file, indent=4)
         else:
-            with open(f"{symbol}_trading_stats.json", "r") as file:
+            with open(f"data/{symbol}_trading_stats.json", "r") as file:
                 # Load JSON data from the file
                 data_stats = json.load(file)
                 latest_stats = data_stats[-1]
@@ -76,10 +76,10 @@ def fetch_stock_indicators(symbol, from_file = False):
             latest_financial = data_financial[-1]
             
             # Save financial data to JSON file
-            with open(f"{symbol}_financial_data.json", "w") as file:
+            with open(f"data/{symbol}_financial_data.json", "w") as file:
                 json.dump(data_financial, file, indent=4)
         else:
-            with open(f"{symbol}_financial_data.json", "r") as file:
+            with open(f"data/{symbol}_financial_data.json", "r") as file:
                 # Load JSON data from the file
                 data_financial = json.load(file)
                 latest_financial = data_financial[-1]
@@ -117,4 +117,4 @@ for symbol in symbols:
             headers_printed = True
         # Print the values for each symbol, separated by commas
         print(",".join(str(value) for value in indicators.values()))
-        # time.sleep(1)  # Sleep for 
+        time.sleep(1)  # sleep to avoid become suspicious
